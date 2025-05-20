@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    padding: 0;;
+}
+header{
+    display: flex;
+    justify-content: space-between; /*or space-between */
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgb(112, 40, 40);
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap:30px;
+}
+#hamburger-icon{
+    width:30px;
+    height:20px;
+}
+#youtube-text{
+    color:red;
+}
+#youtube-logo{
+    width:40px;
+    height:auto;
+}
+#search-bar{
+    width:30em;
+    height:35px;
+    border-radius:20px;
+    text-align: center;
+}
+#search-button{
+    width:80px;
+    border-radius: 20px;
+    padding:10px;
+}
+.sign-in{
+    display: flex;
+    align-self: center;
+    justify-content: space-around;
+    gap:10px
+
+}
+#t3-dot-vertical{
+    height: 20px;
+    width: auto;
+    margin-top:.5rem;
+}
+#sign-in-button{
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+.main-sidebar{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    
+}
+hr{
+    width:5rem;
+}
+.side-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width:15%;
+    height: 120vh;
+    background-color: rgb(112, 40, 40);
+}
+.youtube-options{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap:15px
+}
+.explore{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap:15px
+}
+
+.videos{
+    display: flex;
+    gap:20px;
+    flex-wrap:wrap;
+}
